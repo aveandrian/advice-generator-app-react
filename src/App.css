@@ -65,7 +65,8 @@ main {
 
 footer, footer > a {
   margin-top: 3.125rem;
-  color: hsl(193, 38%, 86%);;
+  color: hsl(193, 38%, 86%);
+  text-align: center;
 }
 
 @media screen and (max-width: 510px) {
@@ -75,5 +76,10 @@ footer, footer > a {
 
   main {
     width: 100%;
+    padding: 10px;
+  }
+
+  .divider {
+    margin-bottom: 2rem;
   }
 }
