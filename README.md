@@ -20,4 +20,4 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/aveandrian/advice-generator-app-react/assets/13519212/266c3fcf-c481-48da-b5fd-e71f0d43c058)
