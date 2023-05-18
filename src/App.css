@@ -1,0 +1,79 @@
+* {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, #root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+}
+
+main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem;
+  gap: 1.875rem;
+  border-radius: 0.625rem;
+  background-color: hsl(217, 19%, 24%);
+  position: relative;
+}
+
+.advice-number {
+  font-size: 0.75rem;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 0.2em;
+}
+
+.advice {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+}
+
+.divider {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.btn {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 3.125rem;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  position: absolute;
+  bottom: -1.563rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1.563rem hsla(150, 100%, 66%, 0.8);
+}
+
+footer, footer > a {
+  margin-top: 3.125rem;
+  color: hsl(193, 38%, 86%);;
+}
+
+@media screen and (max-width: 510px) {
+  body, #root {
+    padding: 0.625rem;
+  }
+
+  main {
+    width: 100%;
+  }
+}
